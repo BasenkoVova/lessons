@@ -39,7 +39,7 @@
 - **Дополнительно**
   - Легко написанная книга по алгоритмам и их сложности [Грокаем алгоритмы](https://www.ozon.ru/context/detail/id/139296295/)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Паттерн проектирования Шаблонный метод](https://drive.google.com/file/d/1ATK-XVE0YUYnF482OxDPdc3imLKLbngq/view?usp=sharing)
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Паттерн проектирования Шаблонный метод](https://drive.google.com/file/d/1iICMsjhyhAK_Hwwaj6jenIPEmxQt5vI2/view?usp=sharing)
 
 **Коммиты:**
  - [`Lesson03 abstract storage & sorted storage`]
