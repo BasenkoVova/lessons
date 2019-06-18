@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1_ufK_L6_nFHP4YsYcUoj23tab12sVt0L?usp=sharing
 
 
 # Четвертое занятие
@@ -38,6 +38,16 @@
 ![image](https://cloud.githubusercontent.com/assets/18701152/15581283/4c2f5348-2374-11e6-8fd2-e4de02d2c389.png)
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Reflection. Аннотации. Модульное тестирование](https://drive.google.com/file/d/1LDd3Ekmi9kn-12Fzxf7M0pOGX_Cvji1K/view?usp=sharing)
+
+!Перед накаткой патча создайте каталог "test/ru/javawebinar/basejava/storage" рядом с каталогом "src"
+
+Затем ПКМ на каталоге test -> Mark Directory as -> test Sources root
+
+иначе тестовые файлы попадут не в тот каталог
+
+если не импортировался jUnit (подсвечивается красным) -> (Alt + Enter) на строке импорта, вибрать пункт "добавить jUnit4 в сорс руут..."
+
+
 **Коммиты:**
  - [`Lesson04 Reflection and JUnit`]
  

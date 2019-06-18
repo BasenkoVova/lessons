@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1bchnmtOvdO3olKHMrV5iZCXCzuQJ_JvL?usp=sharing
 
 
 # Третье занятие
