@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1clYZs4ZBLf1fsQgS1gUS_PPJip2YT8LY?usp=sharing
 
 
 # Пятое занятие
