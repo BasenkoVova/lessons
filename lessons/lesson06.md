@@ -48,7 +48,8 @@
 
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Домашнее задание HW6](https://drive.google.com/file/d/1LULdnS0wgz4yQCNPXkG-LQCTdv_ZGrV4/view?usp=sharing)
-
+**Коммиты:**
+- [`Lesson06_prepare_to_HW06`]
 - Рефакторинг:
   - метод `saveOverflow()` должен исполняться только для массивов
   - в конструктор `Resume` добавьте второй параметр — `fullName`
