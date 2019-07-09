@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1DShg9rGr4LOsqd6nlEblId9xMly8K0Pt?usp=sharing
 
 
 # Седьмое занятие

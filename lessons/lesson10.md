@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1uNeHGWvhoJ-0GTHNNJDsOpg7uo7KhMiN?usp=sharing
 
 
 # Десятое занятие

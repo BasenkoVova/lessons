@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1WTHvY_uOmJ-du3qC-6aoE3XoFVUlTYo6?usp=sharing
 
 
 # Восьмое занятие
