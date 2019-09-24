@@ -1,4 +1,4 @@
-патчи к лекции - https://drive.google.com/open?id=1Or7QGJXmCrEjVCOW_7jxz-UYN7IMjuB_ 
+патчи к лекции - https://drive.google.com/drive/folders/1Or7QGJXmCrEjVCOW_7jxz-UYN7IMjuB_?usp=sharing
 
 
 # Пятнадцатое занятие
