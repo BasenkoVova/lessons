@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/open?id=1M3PFcy3y5mn8y-xMeE_sVS5gTotGQ-QI
 
 
 # Семнадцатое занятие

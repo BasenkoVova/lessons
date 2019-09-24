@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/drive/folders/1uGYfEVNP46lgl_3Mb59GiDBLK9UF05df?usp=sharing
 
 
 # Одиннадцатое занятие

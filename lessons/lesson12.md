@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/open?id=1DFEBIEEemDtdmbS8Vbv-Fmg_ixlfRZPv
 
 
 # Двенадцатое занятие

@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/open?id=1DhGmw2F7GlSTO8jPZf6yJnOBjD1KsGoR
 
 
 # Четырнадцатое занятие

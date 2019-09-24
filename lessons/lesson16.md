@@ -1,4 +1,4 @@
-патчи к лекции - 
+патчи к лекции - https://drive.google.com/open?id=1X0bkxj0HhqgifUodEw3uOKqa_cTNCBhB
 
 
 # Шестнадцатое занятие
