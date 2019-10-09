@@ -7,6 +7,8 @@
 [см. коммит Lesson15 HW14]
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [1. HTML, Tomcat](https://drive.google.com/file/d/1R0buUyNmolXlb0_nYcBdAC9rd6RbyRsN/view?usp=sharing)
+**!!!перед накаткой патча, создайте папку "web" в корне проекта, на одном уровне с папками "src" и "test"**
+
 [см. коммит Lesson15 web]
 
 - <a href="http://java-course.ru/student/book1/servlet/">Протокол HTTP</a>. Смотрим <a href="http://topjava.herokuapp.com/">демо приложение<a/> в Chrome -> Инструменты разработчика
