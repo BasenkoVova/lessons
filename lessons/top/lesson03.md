@@ -62,7 +62,7 @@
 В данном случае двойная мапа (мультимап) - самый эффективный способ хранения, который не требует итерирования (перебора всех значений). С другой стороны затраты по памяти в этом решении больше.
 
 ## Занятие 3:
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1hTXn1ZXb2W6KV6tiSSb91hBIwIOzS4K-">Коротко о жизненном цикле Spring контекста.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1N46EAlbAY-rJ6X3NZqSLOoWa11vbE-II">Коротко о жизненном цикле Spring контекста.</a>
 #### Apply 3_06_bean_life_cycle.patch
 > На JDK 11 перейдем в 5 занятии. Если у вас JDK больше 8, [добавьте в pom `javax.annotation-api`](https://stackoverflow.com/a/46502132/548473)
 
@@ -84,7 +84,7 @@
 -  <a href="http://junit.org/junit4/">JUnit 4</a>
 -  <a href="http://habrahabr.ru/post/120101/">Тестирование в Java. JUnit</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=1TJCS39w5YxX5cwCpkDFTQb6gqxmhZi3m">Spring Test</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=1AZytlqCtf9eV4xJC3LZX-LBj_0gMBwII">Spring Test</a>
 > - поменял `@RunWith`: `SpringRunner` is an alias for the `SpringJUnit4ClassRunner`
 #### Apply 3_08_add_spring_test.patch
 -  <a href="https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#testing">Spring Testing</a>
@@ -172,7 +172,7 @@ GRANT ALL PRIVILEGES ON DATABASE topjava TO "user";
 #### Apply 3_13_fix_servlet.patch
 **Приложение перестало работать, тк. для репозитория мы используем заглушку `JdbcMealRepository`**
  
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=1r40nFxvZSJgFYTJFfjcSp9-VdDXsQInZ">Ответы на Ваши вопросы</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=1sbUnPArLSfmKXUPTFveDyvBS4NybQQGQ">Ответы на Ваши вопросы</a>
 -  Что такое REST? <a href="http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/">10 Best Practices for Better RESTful API</a>
 -  Зачем нужна сортировка еды?
 -  Можно ли обойтись без `MapSqlParameterSource`?
