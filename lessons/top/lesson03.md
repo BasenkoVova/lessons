@@ -1,3 +1,8 @@
+Видео ШАГ
+
+1  -  https://drive.google.com/open?id=1AWGj1cM8I7YsPwCZCGHQq2D9u6hclOXJ
+
+
 # Онлайн-проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
  
 ## [Материалы занятия](https://drive.google.com/open?id=1EmRuGLk9ujZmkM2zKwWThxw2E_cnEaMl)  (скачать все патчи можно через Download папки patch)

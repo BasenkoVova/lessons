@@ -1,3 +1,14 @@
+Видео ШАГ
+
+1  -  https://drive.google.com/open?id=1Z0olD27Ww3jHbW8Xu2WYDCkpah-FBCZj
+
+2  -  https://drive.google.com/open?id=1qsL4GReqL3KikjW8EgtqruZj9gYYwU9W
+
+3  -  https://drive.google.com/open?id=1eK-nSWVDLJ-5rq-tZECjl6RmHh5yvFiD
+
+4  -  https://drive.google.com/open?id=1ru6tixbOf7SwCMIgaJui0dqy1157ank6
+
+
 # Онлайн-проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
 - Не стоит стремиться прочитать все ссылки урока, их можно использовать как справочник. Гораздо важнее пройти основной материал урока и сделать Домашнее Задание
 - Обязательно посмотри <a href="https://github.com/JavaOPs/topjava/wiki/Git#Правила-работы-с-патчами-на-проекте">правила работы с патчами на проекте</a>
