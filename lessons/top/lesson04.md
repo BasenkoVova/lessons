@@ -16,7 +16,7 @@
 
 > `SpringMain, InMemoryAdminRestControllerTest, InMemoryAdminRestControllerSpringTest` починим в патче **4_6_create_inmemory_test_ctx.patch (видео 4)**
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1CpgCetNIxsQfbpNHZliNUOr4G0GgnzSW">JdbcMealRepository + MealServiceTest</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=17X7qLSzYxKHycPAI7-MQ8ayUMhORqMF2">JdbcMealRepository + MealServiceTest</a>
 #### **Apply 4_1_HW3.patch**
 > - В `JdbcUserRepository` поменял `MapSqlParameterSource` на `BeanPropertySqlParameterSource` (поля для вставки определяются через отражение в бине и метаданные в SQL запросе). 
  В `JdbcMealRepository` остается `MapSqlParameterSource`, т.к. в отсутствует `Meal.userId`. См. дополнительно [CombinedSqlParameterSource](https://www.codota.com/java/spring/scenarios/549bbb5dda0a9536b85ad5f3/org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource?tag=spring1b)
@@ -45,7 +45,7 @@
 - см. [вызов статического метода из конфигурации спринга](https://stackoverflow.com/a/27296470/548473) 
 
 ## Занятие 4:
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=1Hkr_dPA4Znl_2r50u4QcovGah3OQOe45">Методы улучшения качества кода</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=11CciLd9MX-UhYA6XGkGZIUvIlPxfQ1BR">Методы улучшения качества кода</a>
 - Сделайте интеграцию своего GitHub-репозитория и подключите сверху своего [README.md](https://github.com/JavaWebinar/topjava/blob/master/README.md) ([Raw](https://raw.githubusercontent.com/JavaWebinar/topjava/master/README.md)) интергацию с
   - <a href="https://www.codacy.com">Codacy Check code</a> (проверка стиля и поиск багов в коде).
      - добавил [Codacy configuration file](https://support.codacy.com/hc/en-us/articles/360005097654-Ignore-files-from-Codacy-analysis) для ислючения из проверок содержимого `webapp` и `READ.me` (на нашем проекте он выдает на них кучу ошибок)
@@ -69,15 +69,15 @@
   - Tools -> QAPlug -> Analyze Code...
 - IDEA [Analyze | Inspect Code](https://www.jetbrains.com/help/idea/running-inspections.html)
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=14Cj3KPMhbctXEiJVzNGq16dItZXmCKuV">Spring: инициализация и популирование DB</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1Z4IDfi_449ifpDo2ceS05tjm_cvny0_m">Spring: инициализация и популирование DB</a>
 #### **Apply 4_5_init_and_populate_db.patch**
 -  [Инициализация базы при старте приложения](https://docs.spring.io/spring/docs/current/spring-framework-reference/data-access.html#jdbc-initializing-datasource-xml)
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=1lRx-Wt37YjL__PFjkZ-mQk2pbz6c2s-1">Подмена контекста при тестировании</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=1fF-RAAHNyKIHpo85obwY8EKoH6Od4RoD">Подмена контекста при тестировании</a>
 #### **Apply 4_6_create_inmemory_test_ctx.patch**
 > Переименовал `mock.xml` в `inmemory.xml`
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=1gBqZF5b2ycfinNzO7Osi9dnjCjsn74Fe">ORM. Hibernate. JPA.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=1afFSRVRMprZ1MZ0Mn8iq_D-aBXHqOb_9">ORM. Hibernate. JPA.</a>
 <a href="https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model">Entity</a>- класс (объект Java), который в ORM маппится в таблицу DB.
 
 > - ВНИМАНИЕ: патч меняет `postgres.properties`, в котором у вас возможно свои креденшелы к базе.
@@ -136,7 +136,7 @@
    - <a href="https://ru.wikipedia.org/wiki/MVCC">MVCC</a>
 
 
-###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=1Jw-Cu8XxT4FcMnhQvT8W2z_H7rfy_n6H">Добавляем поддержку HSQLDB</a>
+###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=1943qioTYufJR38JZ9GeVOp83ijqqXclA">Добавляем поддержку HSQLDB</a>
 
 #### **Apply 4_9_add_hsqldb.patch**
 
