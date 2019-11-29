@@ -1,6 +1,9 @@
+
 Видео ШАГ
 
 1  -  https://drive.google.com/open?id=1AWGj1cM8I7YsPwCZCGHQq2D9u6hclOXJ
+
+2  -  https://drive.google.com/open?id=1BWi8GZS_-1a7vGIzvHbWQLS-f7EdK099
 
 
 # Онлайн-проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
