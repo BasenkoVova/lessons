@@ -1,6 +1,6 @@
 Видео ШАГ
 
-1  -  
+1  -  https://drive.google.com/open?id=1__MOxN8ff3_3lEk9RhJkTk37Gy4cSRud
 
 
 
