@@ -12,7 +12,7 @@
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW5
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1DlxMVfrtEqqzbBDCoYhFQcAyJGhoQiPl">HW5: Spring Profiles. Spring Data JPA</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1YP_gUIcQ64OCSusCBSx43aIO3o05DAfa">HW5: Spring Profiles. Spring Data JPA</a>
 
 #### Apply 6_01_HW5_data_jpa.patch
 > В `get` получаем и фильтруем `Optional<Meal>`
@@ -32,7 +32,7 @@
 
 [JUnit Rules External Resources](https://carlosbecker.com/posts/junit-rules/#external-resources)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=1OVuDg-fKIWG5bKlan2SPKpFiKlIisWpp">HW5: Optional</a>
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=1MmJW12MAM3Z6AuDA9vzE2Kv3s__wV-1X">HW5: Optional</a>
 
 #### Apply 6_04_HW5_optional_fix_jdbc_profiles.patch
 > Сделал классы `Java8JdbcMealRepository` и `TimestampJdbcMealRepository` внутренними
@@ -79,7 +79,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 #### Apply 6_08_add_test_validation.patch
 **Тесты валидации для Jdbc не работают, нужно будет починить в HW6 (в реализация Jdbc валидация отсутствует)**
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1uIKAkKbJs5exVhoVUb-RoBU6e_smcJHQ">Кэш Hibernate</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1kmmWRSid1QOZZDKFI4pAMy1wXds_hzE2">Кэш Hibernate</a>
 > Кэш мигрировал на 3.x
 
 #### Apply 6_09_hibernate_cache.patch
@@ -97,7 +97,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
    -  <a href="http://vladmihalcea.com/2015/06/08/how-does-hibernate-query-cache-work/">How does Hibernate Query Cache work</a>
    -  <a href="https://www.javacodegeeks.com/2014/06/pitfalls-of-the-hibernate-second-level-query-caches.html">Pitfalls of the Hibernate Second-Level / Query Caches</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=1qSvs-HKOtGjSLXTAtYowLAtnFcDTTrsE">Cascade. Auto generate DDL.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=1bdjb3p4Ju94DW498Js9VYdAwD8Sy1FOs">Cascade. Auto generate DDL.</a>
 #### Apply 6_10_cascade_ddl.patch
 #### Cascading
 > Есть SQL ON .. CASCADE, которая выполняется в базе данных, и есть аннотация в Hibernate, исполняемая в приложении
@@ -115,7 +115,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 - <a href="http://stackoverflow.com/questions/7793395">hbm2ddl.auto and autoincrement</a>
 - <a href="http://stackoverflow.com/questions/2585641">Hibernate/JPA DB Schema Generation Best Practices</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.  <a href="https://drive.google.com/open?id=1Yqm3Lc3iGQ_b9zD5gXUQN7MyY0MF1Ujk">Spring Web</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.  <a href="https://drive.google.com/open?id=1YuSsEGjj4eAP8zugOOJ8pLBYklnkhyl9">Spring Web</a>
 #### Apply 6_11_spring_web.patch
 > - Для сборки проекта в окне Maven отключите тесты (`Toggele 'Skip Tests' Mode`)
 > - В `web.xml` задаются профили запуска по умолчанию: `<param-value>postgres,datajpa</param-value>`. 
@@ -124,7 +124,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 -  <a href="http://www.mkyong.com/servlet/what-is-listener-servletcontextlistener-example/">ServletContextListener</a>.
 -  <a href="https://docs.oracle.com/javaee/6/tutorial/doc/bnafi.html">Servlet Lifecycle</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6.   <a href="https://drive.google.com/open?id=16JK2e4Cgd-WcFiWUAFobvhV9Y1iFFZyA">JPS, JSTL, internationalization</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6.   <a href="https://drive.google.com/open?id=1gJMscYU7SLaybQgr2UO6wPxcHFJ8g46m">JPS, JSTL, internationalization</a>
 #### Apply 6_12_jsp_jstl_i18n.patch
 > - Поменял `users/meals` в ключах локализации на `user/meal`. Понадобится при локализации ошибок (сделаем позже)
 
@@ -133,13 +133,13 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 -  <a href="http://docs.oracle.com/javaee/1.3/tutorial/doc/JSPIntro8.html">Including Content in a JSP Page</a>
 -  [Since Java 9 default encoding in properties files is UTF-8](https://docs.oracle.com/javase/9/intl/internationalization-enhancements-jdk-9.htm)
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.   <a href="https://drive.google.com/open?id=1I_VHedTVoVeMb-BskGC2AMQJrnwnDPTj">Динамическое изменение профиля при запуске.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.   <a href="https://drive.google.com/open?id=1WiIRS1o3KlffNDQraVgWbYI_LNZ2L-ig">Динамическое изменение профиля при запуске.</a>
 
     -Dspring.profiles.active="datajpa,postgres"
 
 - <a href="http://stackoverflow.com/questions/10041410/default-profile-in-spring-3-1#answer-10041835">Set profiles in Spring 3.1</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8.   <a href="https://drive.google.com/open?id=1fjbZJ2QPQfaR5WREk-ZUz-Z11yZIl_fk">Конфигурирование Tomcat через maven plugin. Jndi-lookup.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8.   <a href="https://drive.google.com/open?id=1BttJsb4Z2RNEdyG2pv3Wvy_B-D_RJO2_">Конфигурирование Tomcat через maven plugin. Jndi-lookup.</a>
 С плагином мы можем сконфигурировать Tomcat прямо в `pom.xml` и запустить его с задеплоенным туда нашим приложением WAR из командной строки 
 без IDEA и без инсталляции Tomcat. По умолчанию он скачивает его из центрального maven-репозитория (можно также указать свой в `<container><home>${container.home}</home></container>`).
 При запуске Tomcat из IDEA запускается Tomcat, путь к которому мы прописали в конфигурации запуска (со своими настройками). 
@@ -163,7 +163,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 - <a href="https://tomcat.apache.org/tomcat-8.0-doc/jndi-resources-howto.html"/>Tomcat JNDI Resources</a>
 - <a href="https://commons.apache.org/proper/commons-dbcp/configuration.html">BasicDataSource Configuration</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=1I3m3kNLQOY3TvcwoYF7vLQDj7FPizQGs">Spring Web MVC</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=11yM_NBAlkkfeJ9BGwL5Tpo_35LgUhQGr">Spring Web MVC</a>
 #### Apply 6_14_spring_webmvc.patch
 > - Починил [путь к корню](http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page)
 > - В Spring 4.3 ввели новые аннотации `@Get/Post/...Mapping` (сокращенный вариант `@RequestMapping`)
@@ -188,7 +188,7 @@ C `@BatchSize(size = 200)` делается запрос на юзеров (1), 
 
 Да, можно подебажить родителя (`FrameworkServlet.initWebApplicationContext()`). После инициализации сервлет `DispatcherServlet` раскидывает все запросы по контроллерам (бинам контекста Спринга). См. <a href="http://design-pattern.ru/patterns/front-controller.html">паттерн Front Controller</a>.
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=1Uakah_bS5t6S9-S5-YyhrpdC6XdW5zj3">Spring Internationalization</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=1AnjbCkDA8jM3d8_8EOW6VXbh1VpsVgXv">Spring Internationalization</a>
 #### Apply 6_15_spring_i18n.patch
 **Внимание: проверьте, что переменная окружения `TOPJAVA_ROOT` настроена!**
 > - В локализации поменял <a href="http://forum.spring.io/forum/spring-projects/web/1077-differences-between-spring-message-and-fmt-message?p=451622#post451622">`fmt:message` на `spring:message`</a>
