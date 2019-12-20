@@ -1,6 +1,6 @@
 # Онлайн-проект <a href="https://github.com/JavaOps/topjava">Topjava</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfjVnUVhINEg0d09Nb3JsY2ZZZmpsSWp3bzdHMkpKMmtPTlpjckxyVzg0SWc">Материалы занятия</a>
+## <a href="https://drive.google.com/open?id=17qWvKpBGssVfKbYkX9raDudL-EhndeVa">Материалы занятия</a>
 
 ### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правки в проекте
 
