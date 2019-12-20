@@ -10,7 +10,7 @@
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW6
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1a7lxcBZCTlN-i0HN-Ay5FLeML-UEBs6D">HW6</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1osuT19PZTHYX6-0K9UYZ-zG2Hh7liYi_">HW6</a>
 #### Apply 7_01_HW6_fix_tests.patch
 > - Добавил  `AbstractServiceTest.isJpaBased()` и `Assume.assumeTrue(isJpaBased())` в `AbstractMealServiceTest.testValidation()`. 
 > - Как вариант можно было вместо наследования от `AbstractJpaUserServiceTest` сделать `@Autowired(required = false) JpaUtil` и чистить кэш по условию `isJpaBased()`. 
@@ -113,7 +113,7 @@ GROUP BY u.id
 -  Дополнительно:
    - <a href="https://www.sghill.net/how-do-i-write-a-jackson-json-serializer-deserializer.html">Jackson JSON Serializer & Deserializer</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. [Тестирование REST контроллеров через JSONassert и Матчеры](https://drive.google.com/open?id=1oNw9yqklokiWWaKCuvaAEjgt2MhlIC09)
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. [Тестирование REST контроллеров через JSONassert и Матчеры](https://drive.google.com/open?id=1fcMvxQAaxmoHnu-Fpf7AYaiv70laG-AI)
 #### Apply 7_12_json_assert_tests.patch
 - [JSONassert](https://github.com/skyscreamer/JSONassert)
 - [Java Code Examples for ObjectMapper](https://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.databind.ObjectMapper)
