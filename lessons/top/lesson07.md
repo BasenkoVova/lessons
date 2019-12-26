@@ -1,3 +1,8 @@
+Видео ШАГ
+
+1  -  https://drive.google.com/open?id=1jxu2gr0tvcQvQ3QvJR2Bs6VrjiHztqgj
+
+
 # Онлайн-проект <a href="https://github.com/JavaOps/topjava">Topjava</a>
 
 ## <a href="https://drive.google.com/open?id=17qWvKpBGssVfKbYkX9raDudL-EhndeVa">Материалы занятия</a>
