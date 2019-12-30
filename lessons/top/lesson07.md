@@ -2,6 +2,8 @@
 
 1  -  https://drive.google.com/open?id=1jxu2gr0tvcQvQ3QvJR2Bs6VrjiHztqgj
 
+2  -  https://drive.google.com/open?id=1KrvdTnKJ0Zo8du1XcoDrxkznkRB_sMKC
+
 
 # Онлайн-проект <a href="https://github.com/JavaOps/topjava">Topjava</a>
 
