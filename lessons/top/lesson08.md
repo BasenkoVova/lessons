@@ -6,7 +6,7 @@
 
 # Онлайн-проект <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
 
-## <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFfkpMd2UyWjBsc2JsSE4tRDFkU3BvMktFQkhUN1J6VExxSUUzOHlSR0RhNm8">Материалы занятия</a>
+## <a href="https://drive.google.com/open?id=1E3MlQalnt0efNLjL1w81Na7CTODvVcT1">Материалы занятия</a>
 
 - **Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере (в хроме `Ctrl+F5`)**
 - **При удалении файлов не забывайте делать clean: `mvn clean`**
