@@ -1,6 +1,12 @@
+Видео ШАГ
+
+1  -  https://drive.google.com/file/d/1qUUs3Qm17FgBK_1QCX25LS5quxytaZR8/view?usp=sharing
+
+
+
 # Онлайн проекта <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
 
-## <a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFVWRGbEw1RjJrMjg">Материалы занятия</a>
+## <a href="https://drive.google.com/open?id=1r11C5JHK4_0PObizX5dXZTd3I3PslOHF">Материалы занятия</a>
 
 - **Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
 - **При удалении файлов не забывайте делать clean: `mvn clean package`**
@@ -12,7 +18,7 @@
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW8
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFb0JKbElkT000amM">HW8</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=1YvGRQzKhuRZR_0Ia3ZdRN2TpWmYuxz8O">HW8</a>
 **Поправка к видео: [в гриде bootstrap 12 колонок](https://getbootstrap.com/docs/4.1/layout/grid/)**
 
 #### Apply 9_01_HW8.patch
@@ -32,7 +38,7 @@
 #### Apply 9_02_HW8_clear_filter.patch
 > Добавил сброс фильтра
 
-###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFV0VKY2FGbndGMTQ">HW8 Optional (enable/disable user)</a>
+###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=1q0XVgAkNDH2hosIRrCC_Ai2tJ-iLtghC">HW8 Optional (enable/disable user)</a>
 
 #### Apply 9_03_HW8_enable_disable.patch
 > - Перенес метод `enable` в `topjava.users.js` и сделал стиль для пользователей через атрибут `data-userEnabled`
@@ -42,18 +48,18 @@
 
 ## Занятие 9:
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYlRkc2NGRGVydk0">Spring Binding</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3.  <a href="https://drive.google.com/open?id=1MseSQSVzNpIM95X8LWRJX97CSFsuDaMi">Spring Binding</a>
 #### Apply 9_04_binding.patch
 
 >  Move `ru.javawebinar.topjava.util.MealsUtil.DEFAULT_CALORIES_PER_DAY` to `ru.javawebinar.topjava.util.UserUtil`
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFd2ZvcS1pSjdMQlU">Реализация update</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4.  <a href="https://drive.google.com/open?id=1038dZ4j6IOKbklRndwzlZz84xK_6Aqui">Реализация update</a>
 #### Apply 9_05_update.patch
 > - Сделал интерфейс `HasId` от которого наследуются `BaseTo` и `AbstractBaseEntity`
 > - Сделал проверку `id` в `ValidationUtil` на основе `HasId`
 > - Сделал в `ProfileRestController` обновление своего профиля через `UserTo` (нельзя изменять себе роли) и поправил тест
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLXp5MTFDMEY5WFE">Spring Validation</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.  <a href="https://drive.google.com/open?id=19s8KYnJhtVyZxJkjCoWy82JpUYIJpKi8">Spring Validation</a>
 #### Apply 9_06_validation.patch
 > - `responseJSON` не выводится в случае его отсутствия (например при попытке добавить пользователья с дублирующимся email)
 > - сделал конкатенацию ошибок через `StringJoiner`
@@ -70,7 +76,7 @@
 #### Apply 9_07_jdbc_validation.patch
 - [Валидация данных при помощи Bean Validation API](https://alexkosarev.name/2018/07/30/bean-validation-api/). Т.к. `Validator` thread-safe (из Javadoc), его лучше создать один раз и переиспользовать 
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6.  <a href="https://drive.google.com/open?id=1-REbYAnzHTGFfaIOPMlT6QPBh2FPhTFP">Перевод DataTables на Ajax</a>
 #### Apply 9_08_datatable_via_ajax.patch
 > - Перешли на [параметры Datatables в формате 1.10](https://datatables.net/upgrade/1.10-convert)
 > - В `makeEditable()` больше нет манипуляций c DOM, которые требуются делать ПОСЛЕ отработки плагина `datatable`, поэтому нам не обязательно вызывать ее в коллбэке `initComplete`.   
@@ -91,7 +97,7 @@
    
 - <a href="http://stackoverflow.com/a/6242840/548473">JavaScript internationalization</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUmhUTms1WnhTeHc">Форма логина / логаут.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.  <a href="https://drive.google.com/open?id=1eMVKJNT2OfRcmGOzhEu6Bgrr5vJGMwkJ">Форма логина / логаут.</a>
 #### Apply 9_10_min_form_login.patch
 
 > Добавил функциональность logout
@@ -113,19 +119,19 @@
 
 -  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторизации.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=13IH0ajxRIorK3mImUjFKsq71y80xCfXw">Реализация собственного провайдера авторизации.</a>
 #### Apply 9_12_auth_via_user_service.patch
 > В `UserService` добавил `@Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)`, т.к. без этой аннотации для кэширования создается прокси над интерфейсом `UserDetailsService` (см. следующее видео по типам проксирования Spring). Можете проверить, что без этой аннотации приложение не поднимется. 
 
 -  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#userdetailsservice-implementations">UserDetailsService Implementations</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT2Qya2V4N0kzWWM">Принцип работы Spring Security. Проксирование.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9.  <a href="https://drive.google.com/open?id=17HXC3aEDHyl6N3incKYlyC5BMT5lY9tI">Принцип работы Spring Security. Проксирование.</a>
 -  <a href="https://ru.wikibooks.org/wiki/Spring_Security/Технический_обзор_Spring_Security">Технический обзор Spring Security</a>
 -  <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aop-proxying">Типы проксирования</a>
 -  <a href="http://samolisov.blogspot.ru/2010/04/proxy-java.html">Dynamic Proxy API</a>
 -  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#filter-stack">Security фильтры</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU3hMR0o4eGNoUmc">Spring Security Test</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=1j9QUMpq76z2PdabprWYGfp7x1vVX4aJb">Spring Security Test</a>
 #### Apply 9_13_spring_security_test.patch
 
 > - Cделал "честную" авторизацию в `RootControllerTest` (через `authentication` в утильном методе `TestUtil`)
@@ -136,7 +142,7 @@
 -  <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#testing-http-basic-authentication">HttpBasic авторизация</a>
 -  <a href="http://habrahabr.ru/post/171911/">Тестирование контроллеров с помощью MockMvc (без spring-security-test)</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUzNFanF6MGZGNHc">Cookie. Session.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=1l8Xo9MeFsx5aIe9huzN9kQyK7YZy0rty">Cookie. Session.</a>
 -  <a href="https://ru.wikipedia.org/wiki/HTTP_cookie">HTTP cookie</a></h3>
 -  <a href="http://stackoverflow.com/questions/595872/under-what-conditions-is-a-jsessionid-created">Under what conditions is a JSESSIONID created?</a>
 -  <a href="http://halyph.blogspot.ru/2014/08/how-to-disable-tomcat-session.html">Tomcat Session Serialization</a>
